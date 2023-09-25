@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-data = pd.read_csv("C:/Users/DELL/OneDrive/Desktop/streamlit/BusesVis.csv")
+data = pd.read_csv("BusesVis.csv")
 
 # Title and description
 st.title("Interactive Bus Data Visualizations")
